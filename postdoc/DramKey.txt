@@ -1,0 +1,100 @@
+Path.Component	Process	Path	Component	Path2	Component2	Path_Order	Component_Order	Orig_Order
+Glycolysis..Embden.Meyerhof.pathway...glucose....pyruvate	ETC	Module	"Glycolysis (Embden-Meyerhof pathway), glucose => pyruvate"	Energy cons.	"Glycoysis, glu=>pyr (EM)"	1	1	6
+Pentose.phosphate.pathway..Pentose.phosphate.cycle.	ETC	Module	Pentose phosphate pathway (Pentose phosphate cycle)	Energy cons.	Pentose Phosphate	1	2	10
+Entner.Doudoroff.pathway..glucose.6P....glyceraldehyde.3P...pyruvate	ETC	Module	"Entner-Doudoroff pathway, glucose-6P => glyceraldehyde-3P + pyruvate"	Energy cons.	"Glycolysis, G6P=>glycal+pyr (ED)"	1	3	5
+Citrate.cycle..TCA.cycle..Krebs.cycle.	ETC	Module	"Citrate cycle (TCA cycle, Krebs cycle)"	Energy cons.	Citrate Cycle	1	4	3
+Glyoxylate.cycle	ETC	Module	Glyoxylate cycle	Energy cons.	Glyoxylate Cycle	1	5	7
+Reductive.pentose.phosphate.cycle..Calvin.cycle.	ETC	Module	Reductive pentose phosphate cycle (Calvin cycle)	Energy cons.	Reductive Pentose Phosphate	1	6	13
+Reductive.citrate.cycle..Arnon.Buchanan.cycle.	ETC	Module	Reductive citrate cycle (Arnon-Buchanan cycle)	Energy cons.	Reductive Citrate Cycle	1	7	12
+Dicarboxylate.hydroxybutyrate.cycle	ETC	Module	Dicarboxylate-hydroxybutyrate cycle	Energy cons.	Dicarb-HydroxyB Cycle	1	8	4
+Hydroxypropionate.hydroxybutylate.cycle	ETC	Module	Hydroxypropionate-hydroxybutylate cycle	Energy cons.	HydroxyP-HydroxyB Cycle	1	9	8
+X3.Hydroxypropionate.bi.cycle	ETC	Module	3-Hydroxypropionate bi-cycle	Energy cons.	3-HydroxyP bi-Cycle	1	10	1
+Reductive.acetyl.CoA.pathway..Wood.Ljungdahl.pathway.	ETC	Module	Reductive acetyl-CoA pathway (Wood-Ljungdahl pathway)	Energy cons.	Reductive acetyl-CoA (WL)	1	11	11
+Acetyl.CoA.pathway..CO2....acetyl.CoA	ETC	Module	"Acetyl-CoA pathway, CO2 => acetyl-CoA"	Energy cons.	"Acetly-CoA, Co2=>acetyl-CoA"	1	12	2
+Methanogenesis..CO2....methane	ETC	Module	"Methanogenesis, CO2 => methane"	Energy cons.	Methanogenesis	1	13	9
+Complex.I..NADH.quinone.oxidoreductase..prokaryotes	ETC	I	"NADH:quinone oxidoreductase, prokaryotes"	Comp. 1	NADH:quin Oxidored	2	1	16
+Complex.I..NAD.P.H.quinone.oxidoreductase..chloroplasts.and.cyanobacteria	ETC	I	"NAD(P)H:quinone oxidoreductase, chloroplasts and cyanobacteria"	Comp. 1	NAD(P)H:quin Oxidored	2	2	14
+Complex.I..NADH.dehydrogenase..ubiquinone..1.alpha.subcomplex	ETC	I	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex	Comp. 1	NADH Dehyd	2	3	15
+Complex.II..Succinate.dehydrogenase..ubiquinone.	ETC	II	Succinate dehydrogenase (ubiquinone)	Comp. 2	Succinate Dehyd (ubiq)	3	1	18
+Complex.II..Succinate.dehydrogenase..prokaryotes	ETC	II	"Succinate dehydrogenase, prokaryotes"	Comp. 2	Succinate Dehyd	3	2	19
+Complex.II..Fumarate.reductase..prokaryotes	ETC	II	"Fumarate reductase, prokaryotes"	Comp. 2	Fumarate Red	3	3	17
+Complex.III..Cytochrome.bc1.complex.respiratory.unit	ETC	III	Cytochrome bc1 complex respiratory unit	Comp. 3	"Cyt bc1, respiratory"	4	1	21
+Complex.III..Cytochrome.bc1.complex	ETC	III	Cytochrome bc1 complex	Comp. 3	Cyt bc1	4	2	20
+Complex.III..Cytochrome.bd.ubiquinol.oxidase	ETC	III	Cytochrome bd ubiquinol oxidase	Comp. 3	Cyt bd	4	3	22
+Complex.IV.High.affinity..Cytochrome.bd.ubiquinol.oxidase	ETC	IV High affinity	Cytochrome bd ubiquinol oxidase	Comp. 4 Hi	Cyt bd	5	1	23
+Complex.IV.High.affinity..Cytochrome.c.oxidase..cbb3.type	ETC	IV High affinity	"Cytochrome c oxidase, cbb3-type"	Comp. 4 Hi	Cyt cbb3	5	2	24
+Complex.IV.Low.affinity..Cytochrome.c.oxidase	ETC	IV Low affinity	Cytochrome c oxidase	Comp. 4 Lo	Cyt c oxidase	6	1	26
+Complex.IV.Low.affinity..Cytochrome.c.oxidase..prokaryotes	ETC	IV Low affinity	"Cytochrome c oxidase, prokaryotes"	Comp. 4 Lo	"Cyt c oxidase, prok"	6	2	27
+Complex.IV.Low.affinity..Cytochrome.aa3.600.menaquinol.oxidase	ETC	IV Low affinity	Cytochrome aa3-600 menaquinol oxidase	Comp. 4 Lo	Cyt aa3 menaquin	6	3	25
+Complex.IV.Low.affinity..Cytochrome.o.ubiquinol.oxidase	ETC	IV Low affinity	Cytochrome o ubiquinol oxidase	Comp. 4 Lo	Cyt o ubiq	6	4	28
+Complex.V..F.type.ATPase..prokaryotes.and.chloroplasts	ETC	V	"F-type ATPase, prokaryotes and chloroplasts"	Comp. 5	"F-ATPase, prok+chlor"	7	1	30
+Complex.V..F.type.ATPase..eukaryotes	ETC	V	"F-type ATPase, eukaryotes"	Comp. 5	"F-ATPase, euk"	7	2	29
+Complex.V..V.type.ATPase..eukaryotes	ETC	V	"V-type ATPase, eukaryotes"	Comp. 5	"V-ATPase, euk"	7	3	31
+Complex.V..V.A.type.ATPase..prokaryotes	ETC	V	"V/A-type ATPase, prokaryotes"	Comp. 5	"V/A-ATPase, prok"	7	4	32
+CAZy..Polyphenolics	Other	CAZy	Polyphenolics	Carbohydrates	Polyphenolics	1	1	46
+CAZy..Crystalline.Cellulose	Other	CAZy	Crystalline Cellulose	Carbohydrates	Crystalline Cellulose	1	2	41
+CAZy..Amorphous.Cellulose	Other	CAZy	Amorphous Cellulose	Carbohydrates	Amorphous Cellulose	1	3	35
+CAZy..Xyloglucan	Other	CAZy	Xyloglucan	Carbohydrates	Xyloglucan	1	4	51
+CAZy..Xylans	Other	CAZy	Xylans	Carbohydrates	Xylans	1	5	50
+CAZy..Alpha.mannan	Other	CAZy	Alpha-mannan	Carbohydrates	Alpha-mannan	1	6	34
+CAZy..Beta.mannan	Other	CAZy	Beta-mannan	Carbohydrates	Beta-mannan	1	7	39
+CAZy..Mixed.Linkage.glucans	Other	CAZy	Mixed-Linkage glucans	Carbohydrates	Mixed-Linkage glucans	1	8	43
+CAZy..Starch	Other	CAZy	Starch	Carbohydrates	Starch	1	9	48
+CAZy..Pectin	Other	CAZy	Pectin	Carbohydrates	Pectin	1	10	45
+CAZy..Arabinan	Other	CAZy	Arabinan	Carbohydrates	Arabinan	1	11	36
+CAZy..Alpha.galactans	Other	CAZy	Alpha-galactans	Carbohydrates	Alpha-galactans	1	12	33
+CAZy..Beta.galactan..pectic.galactan.	Other	CAZy	Beta-galactan (pectic galactan)	Carbohydrates	Beta-galactan (pectic galactan)	1	13	38
+CAZy..Chitin	Other	CAZy	Chitin	Carbohydrates	Chitin	1	14	40
+CAZy..Sulf.Polysachharides	Other	CAZy	Sulf-Polysachharides	Carbohydrates	Sulf-Polysachharides	1	15	49
+CAZy..Mucin	Other	CAZy	Mucin	Carbohydrates	Mucin	1	16	44
+CAZy..Fucose.Cleavage	Other	CAZy	Fucose Cleavage	Carbohydrates	Fucose Cleavage	1	17	42
+CAZy..Arabinose.cleavage	Other	CAZy	Arabinose cleavage	Carbohydrates	Arabinose cleavage	1	18	37
+CAZy..Rhamnose.cleavage	Other	CAZy	Rhamnose cleavage	Carbohydrates	Rhamnose cleavage	1	19	47
+Nitrogen.metabolism..ammonia....nitrite	Other	Nitrogen metabolism	ammonia => nitrite	Nitrogen	ammonia=>nitrite	2	1	68
+Nitrogen.metabolism..Bacterial.Archaeal.ammonia.oxidation	Other	Nitrogen metabolism	Bacterial/Archaeal ammonia oxidation	Nitrogen	Bact/Arch ammonia ox	2	2	65
+Nitrogen.metabolism..Bacterial..aerobic.specific..ammonia.oxidation	Other	Nitrogen metabolism	Bacterial (aerobic-specific) ammonia oxidation	Nitrogen	"ammonia ox, aerobic"	2	3	63
+Nitrogen.metabolism..Bacterial..anaerobic.specific..ammonia.oxidation	Other	Nitrogen metabolism	Bacterial (anaerobic-specific) ammonia oxidation	Nitrogen	"ammonia ox, anaerobic"	2	4	64
+Nitrogen.metabolism..nitrite....nitrate	Other	Nitrogen metabolism	nitrite => nitrate	Nitrogen	nitrite=>nitrate	2	5	71
+Nitrogen.metabolism..nitrate....nitrite	Other	Nitrogen metabolism	nitrate => nitrite	Nitrogen	nitrate=>nitrite	2	6	69
+Nitrogen.metabolism..nitrite....nitric.oxide	Other	Nitrogen metabolism	nitrite => nitric oxide	Nitrogen	nitrite=>nitric oxide	2	7	72
+Nitrogen.metabolism..Dissimilatory.nitrite.reduction.to.ammonia..DNRA.	Other	Nitrogen metabolism	Dissimilatory nitrite reduction to ammonia (DNRA)	Nitrogen	DNRA	2	8	66
+Nitrogen.metabolism..nitric.oxide....nitrous.oxide	Other	Nitrogen metabolism	nitric oxide => nitrous oxide	Nitrogen	nitric oxide=>nitrous oxide	2	9	70
+Nitrogen.metabolism..nitrous.oxide....nitrogen	Other	Nitrogen metabolism	nitrous oxide => nitrogen	Nitrogen	nitrous oxide=>nitrogen	2	10	74
+Nitrogen.metabolism..Nitrogen.fixation.altennative	Other	Nitrogen metabolism	Nitrogen fixation alternative	Nitrogen	Nitrogen fixation alternative	2	12	67
+Nitrogen.metabolism..nitrogen....ammonia	Other	Nitrogen metabolism	nitrogen => ammonia	Nitrogen	nitrogen=>ammonia	2	22	73
+Sulfur.metabolism..dissimilatory.sulfate.reduction..and.oxidation..sulfate....sulfide	Other	Sulfur metabolism	dissimilatory sulfate reduction (and oxidation) sulfate => sulfide	Sulfur	sulfate=>sulfide	3	1	96
+Sulfur.metabolism..thiosulfate....sulfite	Other	Sulfur metabolism	thiosulfate => sulfite	Sulfur	"thiosulfate=>sulfite,  opt. 1"	3	2	98
+Sulfur.metabolism..thiosulfate.reduction..thiosulfate....sulfite	Other	Sulfur metabolism	"thiosulfate reduction, thiosulfate => sulfite"	Sulfur	"thiosulfate=>sulfite,  opt. 2"	3	3	99
+Sulfur.metabolism..Thiosulfate.oxidation.by.SOX.complex..thiosulfate....sulfate	Other	Sulfur metabolism	"Thiosulfate oxidation by SOX complex, thiosulfate => sulfate"	Sulfur	"SOX, thiosulfate=>sulfate"	3	4	95
+Sulfur.metabolism..tetrathionate....thiosulfate	Other	Sulfur metabolism	tetrathionate => thiosulfate	Sulfur	tetrathionate=>thiosulfate	3	5	97
+Other.Reductases..selenate.Chlorate.reduction	Other	Other Reductases	selenate/Chlorate reduction	Other	selenate/Chlorate reduction	4	1	79
+Other.Reductases..TMAO.reductase	Other	Other Reductases	TMAO reductase	Other	TMAO reductase	4	2	75
+Other.Reductases..mercury.reduction	Other	Other Reductases	mercury reduction	Other	mercury reduction	4	3	78
+Other.Reductases..arsenate.reduction..pt.1	Other	Other Reductases	"arsenate reduction, pt 1"	Other	"arsenate reduction, pt 1"	4	4	76
+Other.Reductases..arsenate.reduction..pt.2	Other	Other Reductases	"arsenate reduction, pt 2"	Other	"arsenate reduction, pt 2"	4	5	77
+Photosynthesis..Photosystem.I	Other	Photosynthesis	Photosystem I	Photo.	Photosystem I	5	1	80
+Photosynthesis..Photosystem.II	Other	Photosynthesis	Photosystem II	Photo.	Photosystem II	5	2	81
+Methanogenesis.and.methanotrophy..Key.functional.gene	Other	Methanogenesis and methanotrophy	Key functional gene	Methane	Key functional gene (mcr)	6	1	52
+Methanogenesis.and.methanotrophy..acetate....methane..pt.1	Other	Methanogenesis and methanotrophy	"acetate => methane, pt 1"	Methane	"acetate=>methane, pt 1"	6	2	53
+Methanogenesis.and.methanotrophy..acetate....methane..pt.2	Other	Methanogenesis and methanotrophy	"acetate => methane, pt 2"	Methane	"acetate=>methane, pt 2"	6	3	54
+Methanogenesis.and.methanotrophy..acetate....methane..pt.3	Other	Methanogenesis and methanotrophy	"acetate => methane, pt 3"	Methane	"acetate=>methane, pt 3"	6	4	55
+Methanogenesis.and.methanotrophy..methanol....methane	Other	Methanogenesis and methanotrophy	methanol => methane	Methane	methanol=>methane	6	5	59
+Methanogenesis.and.methanotrophy..trimethylamine....dimethylamine	Other	Methanogenesis and methanotrophy	trimethylamine => dimethylamine	Methane	trimethylamine=>dimethylamine	6	6	62
+Methanogenesis.and.methanotrophy..dimethylamine....monomethylamine	Other	Methanogenesis and methanotrophy	dimethylamine => monomethylamine	Methane	dimethylamine=>monomethylamine	6	7	56
+Methanogenesis.and.methanotrophy..monomethylamine....ammonia	Other	Methanogenesis and methanotrophy	monomethylamine => ammonia	Methane	monomethylamine=>ammonia	6	8	60
+Methanogenesis.and.methanotrophy..putative.but.not.defining.CO2....methane	Other	Methanogenesis and methanotrophy	putative but not defining CO2 => methane	Methane	put. CO2=>methane	6	9	61
+Methanogenesis.and.methanotrophy..methane....methanol..with.oxygen..pmo.	Other	Methanogenesis and methanotrophy	"methane => methanol, with oxygen (pmo)"	Methane	methane=>methanol  (pmo)	6	10	58
+Methanogenesis.and.methanotrophy..methane....methanol..with.oxygen..mmo.	Other	Methanogenesis and methanotrophy	"methane => methanol, with oxygen (mmo)"	Methane	methane=>methanol (mmo)	6	11	57
+SCFA.and.alcohol.conversions..pyruvate....acetyl.CoA.v1	Other	SCFA and alcohol conversions	pyruvate => acetyl CoA v1	"Acids, alcohols"	pyruvate=>acetyl CoA v1	7	1	92
+SCFA.and.alcohol.conversions..pyruvate....acetyl.CoA.v2	Other	SCFA and alcohol conversions	pyruvate => acetyl CoA v2	"Acids, alcohols"	pyruvate=>acetyl CoA v2	7	2	93
+SCFA.and.alcohol.conversions..pyruvate....acetylCoA.f..formate.v3	Other	SCFA and alcohol conversions	pyruvate => acetylCoA f+ formate v3	"Acids, alcohols"	pyruvate=>acetyl CoA + formate	7	3	94
+SCFA.and.alcohol.conversions..acetate..pt.1	Other	SCFA and alcohol conversions	"acetate, pt 1"	"Acids, alcohols"	"acetate, pt 1"	7	4	87
+SCFA.and.alcohol.conversions..acetate..pt.2	Other	SCFA and alcohol conversions	"acetate, pt 2"	"Acids, alcohols"	"acetate, pt 2"	7	5	88
+SCFA.and.alcohol.conversions..acetate..pt.3	Other	SCFA and alcohol conversions	"acetate, pt 3"	"Acids, alcohols"	"acetate, pt 3"	7	6	89
+SCFA.and.alcohol.conversions..lactate.L	Other	SCFA and alcohol conversions	lactate L	"Acids, alcohols"	lactate L	7	7	91
+SCFA.and.alcohol.conversions..lactate.D	Other	SCFA and alcohol conversions	lactate D	"Acids, alcohols"	lactate D	7	8	90
+SCFA.and.alcohol.conversions..Butyrate..pt.1	Other	SCFA and alcohol conversions	"Butyrate, pt 1"	"Acids, alcohols"	"Butyrate, pt 1"	7	9	83
+SCFA.and.alcohol.conversions..Butyrate..pt.2	Other	SCFA and alcohol conversions	"Butyrate, pt 2"	"Acids, alcohols"	"Butyrate, pt 2"	7	10	84
+SCFA.and.alcohol.conversions..Propionate..pt.1	Other	SCFA and alcohol conversions	"Propionate, pt 1"	"Acids, alcohols"	"Propionate, pt 1"	7	11	85
+SCFA.and.alcohol.conversions..Propionate..pt.2	Other	SCFA and alcohol conversions	"Propionate, pt 2"	"Acids, alcohols"	"Propionate, pt 2"	7	12	86
+SCFA.and.alcohol.conversions..Alcohol.production	Other	SCFA and alcohol conversions	Alcohol production	"Acids, alcohols"	Alcohol production	7	13	82
