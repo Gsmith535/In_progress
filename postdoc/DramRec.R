@@ -1,37 +1,32 @@
 #Recreate DRAM output from liquor
 
-#packages I want to use
+#packages 
 library(tidyverse)
-#library(dplyr)
-#library(tidyr)
-#require(devtools)
-#install_version("ggplot2", version = "3.3.3", repos = "http://cran.us.r-project.org")
-#library(ggplot2)
 library(gridExtra)
-theme_set(theme_classic());theme_update(axis.text = element_text(color="black"))
+theme_set(theme_classic());theme_update(axis.text = element_text(color="black")) ### set theme
 
 #Working in
 #setwd("~/Downloads")
 
-#Read recruitment data (note that if using Libre Calc, saving as a csv actually saves as tsv)
-Liquor1=as.data.frame(read.delim(file="product1.tsv",header=T)) %>% 
-  mutate(origin="UGent",modifications="None")
-Liquor2=as.data.frame(read.delim(file="product2.tsv",header=T)) %>% 
+#Read data and combine
+Liquor1=as.data.frame(read.delim(file="product1.tsv",header=T)) %>% ### standard outupt of DRAM for first dataset
+  mutate(origin="UGent",modifications="None") ### append metadata
+Liquor2=as.data.frame(read.delim(file="product2.tsv",header=T)) %>% ### standard outupt of DRAM for second dataset
   mutate(origin="UGent",modifications="Filt")
-Liquor=rbind(Liquor1,Liquor2)
-Liquor_Key=as.data.frame(read.delim(file="DramKey.txt",header=T))
+Liquor=rbind(Liquor1,Liquor2) ### combine datasets
+Liquor_Key=as.data.frame(read.delim(file="DramKey.txt",header=T)) ### key for the standard output
 Liquor_Key2=Liquor_Key %>% 
   mutate(Path=factor(Path,levels=unique(Path))) %>% 
   mutate(Path2=factor(Path2,levels=unique(Path2))) %>% 
   mutate(Component=factor(Component,levels=unique(Component))) %>% 
   mutate(Component2=factor(Component2,levels=unique(Component2)))
-Genomes1=as.data.frame(read.delim(file="stats1.tsv",header=T)) %>% 
+Genomes1=as.data.frame(read.delim(file="stats1.tsv",header=T)) %>% ### standard outupt of DRAM for first dataset
   mutate(origin="UGent",modifications="None")
-Genomes2=as.data.frame(read.delim(file="stats2.tsv",header=T)) %>% 
+Genomes2=as.data.frame(read.delim(file="stats2.tsv",header=T)) %>% ### standard outupt of DRAM for second dataset
   mutate(origin="UGent",modifications="Filt")
-Genomes=rbind(Genomes1,Genomes2)
+Genomes=rbind(Genomes1,Genomes2) ### combine datasets
 
-Fulldat=full_join(Genomes %>% 
+Fulldat=full_join(Genomes %>% ### combine and adjust data
                     mutate(taxonomy=ifelse(grepl("__",taxonomy),as.character(taxonomy),"None"),
                            taxonomy=factor(taxonomy,levels=unique(taxonomy))) %>% 
                     separate(taxonomy,c("GTDB_Dom","GTDB_Phy","GTDB_Cla","GTDB_Ord","GTDB_Fam","GTDB_Gen","GTDB_Spe"),sep=";",remove=F) %>% 
@@ -48,9 +43,9 @@ Fulldat=full_join(Genomes %>%
                            taxonomy4=factor(taxonomy4,levels=unique(taxonomy4))), 
                   Liquor) 
 
-#Massage data a bit
+#Massage data
 Liquor_ETC=Fulldat %>% 
-  select(genome,genome2,origin,modifications,taxonomy,taxonomy2,taxonomy3,taxonomy4,GTDB_Phy:GTDB_Spe,X3.Hydroxypropionate.bi.cycle:Complex.V..V.A.type.ATPase..prokaryotes)
+  select(genome,genome2,origin,modifications,taxonomy,taxonomy2,taxonomy3,taxonomy4,GTDB_Phy:GTDB_Spe,X3.Hydroxypropionate.bi.cycle:Complex.V..V.A.type.ATPase..prokaryotes) ### ugly column names, using different reading pacakge could help in future... but it works now
 Liquor_ETC2=Liquor_ETC %>% 
   group_by(genome) %>% 
   gather("Path.Component","Completion",X3.Hydroxypropionate.bi.cycle:Complex.V..V.A.type.ATPase..prokaryotes)
@@ -119,4 +114,4 @@ DRAM_sum=grid.arrange(DRAM_Qual+theme(axis.title.x=element_text(angle=90,hjust=1
                       nrow=1,widths=c(1,1.3,1.7))
 #ggsave("DramSmry.pdf",plot=DRAM_sum,height=20,width=90,units="cm",useDingbats=F)
 
-
+### All data not saved becuase these datasets are inherently small, ie unlikely to have more than ~100 lines, and thus it runs rapidly
