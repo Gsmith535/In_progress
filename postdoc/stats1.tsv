@@ -1,0 +1,13 @@
+genome	number of scaffolds	taxonomy	completeness score	contamination score	5S rRNA	16S rRNA	23S rRNA	tRNA count	assembly quality
+MAG01r	143	d__Bacteria;p__Planctomycetota;c__Brocadiae;o__Brocadiales;f__Brocadiaceae;g__Brocadia;s__	99.45	1.65	2 present	MAG01r_c_000000022883 (1, 599)	MAG01r_c_000000000485 (1, 1900)	45	med
+MAG02r	666	d__Bacteria;p__Planctomycetota;c__Phycisphaerae;o__UBA1845;f__PWPN01;g__JAAXZI01;s__	95.39	1.14	MAG02r_c_000000000822 (14656, 14731)		MAG02r_c_000000001134 (8682, 11656)	41	med
+MAG03r_v1	604	d__Archaea;p__Thermoproteota;c__Nitrososphaeria;o__Nitrososphaerales;f__Nitrososphaeraceae;g__Nitrososphaera;s__	90.78	1.29	MAG03r_v1_c_000000001639 (5417, 5529)			46	med
+MAG04r	226	d__Bacteria;p__Bacteroidota;c__UBA10030;o__UBA10030;f__UBA10030;g__;s__	96.72	1.09		MAG04r_c_000000001232 (1, 402)		40	med
+MAG05r	77	d__Bacteria;p__Armatimonadota;c__Fimbriimonadia;o__Fimbriimonadales;f__;g__;s__	95.37	0.0	MAG05r_c_000000000113 (48275, 48383)	MAG05r_c_000000000058 (106514, 108033)	MAG05r_c_000000000113 (48491, 51385)	50	high
+MAG06r	586	d__Bacteria;p__Acidobacteriota;c__Thermoanaerobaculia;o__Thermoanaerobaculales;f__Thermoanaerobaculaceae;g__;s__	88.46	0.85	MAG06r_c_000000001502 (9883, 9992)	MAG06r_c_000000001502 (4184, 5740)	MAG06r_c_000000001502 (6159, 9806)	41	med
+MAG07r	169	d__Bacteria;p__Chloroflexota;c__Anaerolineae;o__Anaerolineales;f__EnvOPS12;g__UBA12294;s__	90.91	2.0	MAG07r_c_000000000207 (49489, 49599)	MAG07r_c_000000000183 (1, 954)		50	med
+MAG08r	1324	d__Bacteria;p__Chloroflexota;c__Anaerolineae;o__SBR1031;f__UBA2029;g__UBA2029;s__	85.0	2.91	2 present			37	med
+MAG09r	100	d__Bacteria;p__UBP7_A;c__4484-113;o__4484-113;f__;g__;s__	91.45	1.71	MAG09r_c_000000000321 (13877, 13988)	MAG09r_c_000000000131 (45531, 47024)	MAG09r_c_000000000131 (42325, 45273)	48	high
+MAG10	181	d__Bacteria;p__Planctomycetota;c__Phycisphaerae;o__UBA1845;f__Fen-1342;g__;s__	95.45	0.0	MAG10_c_000000000227 (17313, 17387)	MAG10_c_000000000205 (43164, 44168)	MAG10_c_000000000227 (14329, 17177)	46	high
+MAG11	210	d__Bacteria;p__Zixibacteria;c__MSB-5A5;o__GN15;f__PGXB01;g__;s__	97.74	3.3		MAG11_c_000000006635 (1, 1118)		43	med
+MAG12	101	d__Bacteria;p__Bacteroidota;c__Ignavibacteria;o__Ignavibacteriales;f__Ignavibacteriaceae;g__Ignavibacterium;s__	97.77	0.74	MAG12_c_000000000076 (81520, 81631)	MAG12_c_000000000322 (31963, 33007)	MAG12_c_000000000076 (81739, 82622)	45	high
